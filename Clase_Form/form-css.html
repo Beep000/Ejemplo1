@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Sitio</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+</head>
+<body>
+    <div class="center">
+        <H1>Login</H1>
+        <form action="form-css.html" method="post" name="Login" >
+
+            <div class="txt_field">
+                <input 
+                autocomplete="on"
+                title="Solo letras"
+                type="text" 
+                name="usuario"
+                id="usuario" 
+                required minlength="5" 
+                id="userNom" 
+                name="userNom" 
+                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                 >
+                <label for="">Usuario</label>
+                
+
+
+            </div>
+            
+            <div class="txt_field">
+                <input 
+                autocomplete="on"
+                type="email" 
+                name="correo"
+                id="correo" 
+                id="userMail" 
+                name="userMail" 
+                pattern=".+@duoc\.com"
+                required
+                 >
+                <label for="">Correo</label>
+                
+
+
+            </div>
+
+
+
+            <div class="txt_field">
+                <input
+                autocomplete="on"
+                required minlength="5" 
+                type="password" 
+                name="clave" 
+                id="clave" 
+                required minlength="5"  
+                id="userPass"
+                name="userPass"
+                >
+                <label for="">Contraseña</label>
+
+
+            </div>
+
+            
+
+            <div class="pass">
+                ¿Olvidaste tu contraseña?
+            </div>
+            <input type="submit">
+            <div class="link_Registro">
+                No tiene cuenta <a href="#">Registrate aqui</a>
+
+
+            </div>
+            
+
+
+
+        </form>
+        
+
+
+    </div>
+    
+</body>
+</html>
